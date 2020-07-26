@@ -1,11 +1,11 @@
 {
-  "name": "validator",
+  "name": "inspector",
   "version": "1.0.0",
   "description": "Data type validator with custom exceptions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development webpack --hot",
+    "dev": "cross-env NODE_ENV=development webpack",
     "prod": "cross-env NODE_ENV=production webpack --mode production"
   },
   "repository": {
@@ -14,7 +14,9 @@
   },
   "keywords": [
     "validator",
+    "inspector",
     "exceptions",
+    "custom extensions",
     "types"
   ],
   "author": "Polyakov Andrey",

@@ -56,6 +56,7 @@ module.exports = {
   // Входные точки для приложения
   entry: ['@babel/polyfill', './index.js'],
   output: {
+    globalObject: 'this',
     filename: getFileName('js'),
     path: PATH.resolve(__dirname, 'dist'),
   },
