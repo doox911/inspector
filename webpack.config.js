@@ -19,7 +19,7 @@ const getFileName = exception => {
     return APPLICATION_FILE_NAME + '.' + exception;
   }
 
-  return APPLICATION_FILE_NAME + '.' + '[hash]' + exception;
+  return APPLICATION_FILE_NAME + '.' + '[hash]' + '.' + exception;
 };
 
 /**
