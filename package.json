@@ -4,13 +4,13 @@
   "description": "Data type validator with custom exceptions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "cross-env NODE_ENV=development webpack",
     "prod": "cross-env NODE_ENV=production webpack --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doox911/validator.git"
+    "url": "git+https://github.com/doox911/inspector.git"
   },
   "keywords": [
     "validator",
@@ -22,9 +22,9 @@
   "author": "Polyakov Andrey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/doox911/validator/issues"
+    "url": "https://github.com/doox911/inspector/issues"
   },
-  "homepage": "https://github.com/doox911/validator#readme",
+  "homepage": "https://github.com/doox911/inspector#readme",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
