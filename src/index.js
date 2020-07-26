@@ -22,7 +22,7 @@ const _throwIfInvalid = (variable, type, message, Exception) => {
 /**
  * @description Class of checking and throwing a custom exception.
  */
-export default class Inspector {
+class Inspector {
   /**
    * @param {*} variable
    * @param {string} message
@@ -105,4 +105,6 @@ export default class Inspector {
     return _throwIfInvalid(variable, 'Symbol', message, Exception);
   }
 }
+
+module.exports = Inspector;
 

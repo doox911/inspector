@@ -1,4 +1,4 @@
-import Inspector from './index';
+const Inspector = require('./index');
 
 /**
  * Parent Exception
@@ -28,9 +28,7 @@ class MyCustomException extends DefaultException {
 /**
  * @description for testing
  */
-function testFunction() {
-
-}
+function testFunction() {}
 
 test('Test isNumber', () => {
   expect(Inspector.isNumber(1, 'My message', MyCustomException)).toBe(Inspector);
