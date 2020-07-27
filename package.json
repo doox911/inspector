@@ -2,7 +2,7 @@
   "name": "inspector",
   "version": "1.0.0",
   "description": "Data type validator with custom exceptions",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
     "test": "jest",
     "dev": "cross-env NODE_ENV=development webpack",

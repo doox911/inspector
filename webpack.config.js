@@ -15,11 +15,7 @@ const IS_DEVELOPMENT = !IS_PRODUCTION;
  * @return {string}
  */
 const getFileName = exception => {
-  if (IS_DEVELOPMENT) {
-    return APPLICATION_FILE_NAME + '.' + exception;
-  }
-
-  return APPLICATION_FILE_NAME + '.' + '[hash]' + '.' + exception;
+  return APPLICATION_FILE_NAME + '.' + exception;
 };
 
 /**
