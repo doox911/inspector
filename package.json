@@ -1,5 +1,5 @@
 {
-  "name": "inspector",
+  "name": "inspector-with-exceptions",
   "version": "1.0.0",
   "description": "Data type validator with custom exceptions",
   "main": "dist/app.js",

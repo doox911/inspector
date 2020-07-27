@@ -107,4 +107,3 @@ const _throwIfInvalid = (variable, type, message, Exception) => {
 };
 
 module.exports = Inspector;
-

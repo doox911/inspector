@@ -3,6 +3,6 @@
  * @param {*} type
  * @return {string}
  */
-export default function typeIs(type) {
+module.exports = function typeIs(type) {
   return {}.toString.call(type).replace(']', '').split(' ')[1];
-}
+};
