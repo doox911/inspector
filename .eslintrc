@@ -6,7 +6,7 @@
     "node": true
   },
   "rules": {
-
+    "arrow-parens": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
