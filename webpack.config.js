@@ -54,6 +54,11 @@ module.exports = {
   output: {
     filename: getFileName('js'),
     path: PATH.resolve(__dirname, 'dist'),
+
+    // Имя пакета
+    library: 'Inspector',
+    // Параметры экспорта
+    libraryTarget: 'commonjs2',
   },
   plugins: [
     new CleanWebpackPlugin,
